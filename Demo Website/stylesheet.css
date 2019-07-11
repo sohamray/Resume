@@ -1,0 +1,64 @@
+html{
+	background-image: linear-gradient(22.5deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+a{
+	color: white;
+	font-size: 25px;
+	font-family: "Rockwell";
+	text-decoration: none;
+}
+
+#main_body{
+	height: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 10%;
+	right: 10%;
+	background-color: lightgrey;
+	z-index: -1;
+	padding: 10%;
+	padding-top: 200px;
+}
+
+#menu_bar{
+	align-content: right;
+	position: fixed;
+	top: 5%;
+	width: 95%;
+	left: 5%;
+	background-color: #5050F0;
+	height: 100px;
+	text-align: center;
+	color: white;
+	table-layout: fixed;
+}
+
+#menu_name{
+	height: 100%;
+	margin: auto;
+	text-align: left;
+	font-size: 30px;
+	font-family: "Rockwell";
+	width: 10.45%;
+	padding-left: 10px;
+}
+
+.filler{
+	width: 5%;
+}
+
+.head_curr{
+	background-color: #6060F0;
+}
+
+.head_link{
+	font-size: 25px;
+	font-family: "Rockwell";
+	
+}
+.head_link:hover{
+	background-color: white;
+	color:#5050F0;
+	border-color: #FF0000;
+}
